@@ -48,11 +48,11 @@ form{display:flex;border-top:1px solid #eee}form input{flex:1;border:0;padding:1
 <div class="hero"><span class="tag">Optician · Toronto</span><h1>Eyes on Bloor</h1><p>Eye care and eyewear in Toronto.</p>
 <div class="btns"><a class="btn" href="tel:+14378809640">📞 +1 437-880-9640</a><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&query=Eyes%20on%20Bloor%203391%20Bloor%20Street%20West%2C%20Toronto%2C%20ON" target="_blank" rel="noopener">📍 Directions</a></div></div></header>
 <main>
-<div class="cards" id="services"><div class="card"><div class="ic">👓</div><h3>Eyewear</h3><p>Frames and lenses that suit you.</p></div><div class="card"><div class="ic">🔎</div><h3>Eye exams</h3><p>Book an exam to check your vision.</p></div><div class="card"><div class="ic">🕶️</div><h3>Sunglasses</h3><p>Prescription and non-prescription.</p></div></div>
+<div class="cards" id="services"><div class="card"><div class="ic">👓</div><h3>Eyewear</h3><p>Frames and lenses that suit you.</p></div><div class="card"><div class="ic">🔎</div><h3>Lens fittings</h3><p>Help choosing the right lenses for your prescription.</p></div><div class="card"><div class="ic">🕶️</div><h3>Sunglasses</h3><p>Prescription and non-prescription.</p></div></div>
 <section id="visit"><h2>Visit us</h2><div class="info">
 <div class="box"><dl><dt>Address</dt><dd>3391 Bloor Street West, Toronto, ON</dd><dt>Hours</dt><dd>Call us for today&#x27;s hours</dd><dt>Phone</dt><dd><a href="tel:+14378809640">+1 437-880-9640</a></dd><dt>Email</dt><dd><a href="mailto:eyesonbloorcanada@gmail.com">eyesonbloorcanada@gmail.com</a></dd></dl></div>
 <iframe loading="lazy" title="Map" src="https://www.google.com/maps?q=Eyes%20on%20Bloor%203391%20Bloor%20Street%20West%2C%20Toronto%2C%20ON&output=embed"></iframe></div></section>
-<section id="contact" class="cta"><h2>Book an eye exam</h2><p>Questions? Tap the chat button. It answers instantly, day or night.</p><div class="btns"><a class="btn" href="tel:+14378809640">📞 +1 437-880-9640</a><a class="btn ghost" href="mailto:eyesonbloorcanada@gmail.com">✉️ eyesonbloorcanada@gmail.com</a></div></section>
+<section id="contact" class="cta"><h2>Visit or call us</h2><p>Questions? Tap the chat button. It answers instantly, day or night.</p><div class="btns"><a class="btn" href="tel:+14378809640">📞 +1 437-880-9640</a><a class="btn ghost" href="mailto:eyesonbloorcanada@gmail.com">✉️ eyesonbloorcanada@gmail.com</a></div></section>
 </main>
 <footer>© Eyes on Bloor · Demo concept by Lovish Gautam (lovishgautam.997@gmail.com)</footer>
 <button id="chat-btn">💬 Ask us anything</button>
@@ -60,7 +60,7 @@ form{display:flex;border-top:1px solid #eee}form input{flex:1;border:0;padding:1
 <div class="chips"><button>Hours</button><button>Where are you?</button><button>Services</button><button>Book / order</button></div>
 <form id="f"><input id="q" placeholder="Type a question…" autocomplete="off"><button>Send</button></form></div>
 <script>
-const F={"name": "Eyes on Bloor", "phone": "+1 437-880-9640", "address": "3391 Bloor Street West, Toronto, ON", "hours": "", "services": ["Eyewear", "Eye exams", "Sunglasses"], "cta": "Book an eye exam", "label": "Optician"};
+const F={"name": "Eyes on Bloor", "phone": "+1 437-880-9640", "address": "3391 Bloor Street West, Toronto, ON", "hours": "", "services": ["Eyewear", "Lens fittings", "Sunglasses"], "cta": "Visit or call us", "label": "Optician"};
 const msgs=document.getElementById('msgs'),box=document.getElementById('chat');
 function add(t,c){const d=document.createElement('div');d.className='m '+c;d.textContent=t;msgs.appendChild(d);msgs.scrollTop=1e9}
 function answer(q){q=q.toLowerCase();
